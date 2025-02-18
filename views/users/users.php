@@ -9,6 +9,7 @@
             <tr>
                 <th>Username</th>
                 <th>Email</th>
+                <th>Password</th>
                 <th>Role</th>
                 <th>Action</th>
             </tr>
@@ -18,6 +19,7 @@
                 <tr>
                     <td><?= $user['name'] ?></td>
                     <td><?= $user['email'] ?></td>
+                    <td><?= $user['password'] ?></td>
                     <td><?= $user['role'] ?></td>
                     <td>
                       <a href="/users/delete/<?= $user['id'] ?>"><i class="material-icons text-danger">delete</i></a>
